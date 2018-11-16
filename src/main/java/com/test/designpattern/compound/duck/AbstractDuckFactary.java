@@ -1,7 +1,5 @@
 package com.test.designpattern.compound.duck;
 
-import com.test.designpattern.compound.Quackable;
-
 public interface AbstractDuckFactary {
 
     Quackable createDuckCall();

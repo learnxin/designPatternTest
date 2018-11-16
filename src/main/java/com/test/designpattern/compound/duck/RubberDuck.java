@@ -1,10 +1,27 @@
 package com.test.designpattern.compound.duck;
 
-import com.test.designpattern.compound.Quackable;
-
 public class RubberDuck implements Quackable {
     @Override
     public void quack() {
         System.out.println("rubber quack");
+        notifyObserve();
+    }
+
+    private QuackAbserveable quackAbserveable;
+
+    public RubberDuck() {
+        quackAbserveable=new Observeable(this);
+    }
+
+
+
+    @Override
+    public void registerObserve(QuackObserve observe) {
+        quackAbserveable.registerObserve(observe);
+    }
+
+    @Override
+    public void notifyObserve() {
+        quackAbserveable.notifyObserve();
     }
 }
