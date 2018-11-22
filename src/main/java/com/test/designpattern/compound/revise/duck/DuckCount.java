@@ -1,4 +1,4 @@
-package com.test.designpattern.compound.duck;
+package com.test.designpattern.compound.revise.duck;
 
 public class DuckCount implements Quackable {
     private static int num_duck=0;

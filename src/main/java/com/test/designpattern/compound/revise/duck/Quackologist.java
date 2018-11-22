@@ -1,4 +1,4 @@
-package com.test.designpattern.compound.duck;
+package com.test.designpattern.compound.revise.duck;
 
 public class Quackologist implements QuackObserve{
     @Override

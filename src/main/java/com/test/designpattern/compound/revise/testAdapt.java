@@ -1,8 +1,8 @@
-package com.test.designpattern.compound;
+package com.test.designpattern.compound.revise;
 
-import com.test.designpattern.compound.duck.*;
-import com.test.designpattern.compound.goose.Goose;
-import com.test.designpattern.compound.goose.GooseAdapt;
+import com.test.designpattern.compound.revise.duck.*;
+import com.test.designpattern.compound.revise.goose.Goose;
+import com.test.designpattern.compound.revise.goose.GooseAdapt;
 
 public class testAdapt {
 

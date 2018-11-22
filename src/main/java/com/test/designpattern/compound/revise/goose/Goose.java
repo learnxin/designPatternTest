@@ -1,4 +1,4 @@
-package com.test.designpattern.compound.goose;
+package com.test.designpattern.compound.revise.goose;
 
 public class Goose {
     public void honk(){

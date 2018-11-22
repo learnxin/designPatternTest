@@ -1,15 +1,15 @@
-package com.test.designpattern.compound.duck;
+package com.test.designpattern.compound.revise.duck;
 
-public class RedHeadDuck implements Quackable {
+public class RubberDuck implements Quackable {
     @Override
     public void quack() {
-        System.out.println("quack");
+        System.out.println("rubber quack");
         notifyObserve();
     }
 
     private QuackAbserveable quackAbserveable;
 
-    public RedHeadDuck() {
+    public RubberDuck() {
         quackAbserveable=new Observeable(this);
     }
 

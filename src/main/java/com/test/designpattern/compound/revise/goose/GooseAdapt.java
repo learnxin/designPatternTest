@@ -1,7 +1,7 @@
-package com.test.designpattern.compound.goose;
+package com.test.designpattern.compound.revise.goose;
 
-import com.test.designpattern.compound.duck.QuackObserve;
-import com.test.designpattern.compound.duck.Quackable;
+import com.test.designpattern.compound.revise.duck.QuackObserve;
+import com.test.designpattern.compound.revise.duck.Quackable;
 
 public class GooseAdapt implements Quackable {
     private Goose goose;

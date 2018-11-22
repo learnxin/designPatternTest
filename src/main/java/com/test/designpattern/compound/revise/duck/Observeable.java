@@ -1,4 +1,4 @@
-package com.test.designpattern.compound.duck;
+package com.test.designpattern.compound.revise.duck;
 
 import java.util.ArrayList;
 import java.util.List;
